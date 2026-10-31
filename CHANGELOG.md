@@ -1,0 +1,10 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased]
+
+### Added
+- `SpektrixUk::Cinema.all` and `SpektrixUk::Cinema.new(id)` for Tyneside Cinema, Broadway, Showroom Cinema, Hyde Park Picture House and HOME, with addresses and coordinates held in the gem.
+- `SpektrixUk::Performance.at(id, from:, to:)`, from each venue's public Spektrix API, with films only, booking links, variants, dimensions, film years and festivals, following cinebase 5.6.
+- Fixtures trimmed from live responses, a live shape test that checks real responses without storing them, and GitHub Actions CI and release workflows.
