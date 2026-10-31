@@ -1,0 +1,350 @@
+[
+  {
+    "isOnSale": false,
+    "planId": "403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR",
+    "priceList": {
+      "id": "25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN"
+    },
+    "event": {
+      "id": "234402ACMTBQHQPPGMDDTRGQDMMKGTSLN"
+    },
+    "start": "2026-10-31T12:45:00",
+    "startUtc": "2026-10-31T12:45:00",
+    "startSellingAtWeb": "2026-10-08T09:00:00",
+    "startSellingAtWebUtc": "2026-10-08T08:00:00Z",
+    "stopSellingAtWeb": "2026-10-31T12:35:00",
+    "stopSellingAtWebUtc": "2026-10-31T12:35:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "929801AQDLPJGRNRVQHCKHRMQBBSPPVMJ",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": true,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": true,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": true,
+    "attribute_Strand": "Relaxed Screenings"
+  },
+  {
+    "isOnSale": false,
+    "planId": "201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL",
+    "priceList": {
+      "id": "25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN"
+    },
+    "event": {
+      "id": "234402ACMTBQHQPPGMDDTRGQDMMKGTSLN"
+    },
+    "start": "2026-10-31T17:45:00",
+    "startUtc": "2026-10-31T17:45:00",
+    "startSellingAtWeb": "2026-10-08T09:00:00",
+    "startSellingAtWebUtc": "2026-10-08T08:00:00Z",
+    "stopSellingAtWeb": "2026-10-31T17:35:00",
+    "stopSellingAtWebUtc": "2026-10-31T17:35:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "838801ADGTDNHRPTKTRVCTCGHBHLRVTSD",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": true,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ",
+    "priceList": {
+      "id": "25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN"
+    },
+    "event": {
+      "id": "234402ACMTBQHQPPGMDDTRGQDMMKGTSLN"
+    },
+    "start": "2026-11-01T17:25:00",
+    "startUtc": "2026-11-01T17:25:00",
+    "startSellingAtWeb": "2026-10-08T09:00:00",
+    "startSellingAtWebUtc": "2026-10-08T08:00:00Z",
+    "stopSellingAtWeb": "2026-11-01T17:15:00",
+    "stopSellingAtWebUtc": "2026-11-01T17:15:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "926601ADLCSSCDDDMJNGLLGKPQSHQRVJK",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": true,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ",
+    "priceList": {
+      "id": "25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN"
+    },
+    "event": {
+      "id": "234402ACMTBQHQPPGMDDTRGQDMMKGTSLN"
+    },
+    "start": "2026-11-01T19:45:00",
+    "startUtc": "2026-11-01T19:45:00",
+    "startSellingAtWeb": "2026-10-08T09:00:00",
+    "startSellingAtWebUtc": "2026-10-08T08:00:00Z",
+    "stopSellingAtWeb": "2026-11-01T19:35:00",
+    "stopSellingAtWebUtc": "2026-11-01T19:35:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "926401ANDLVRDSMNCNMMQMVKTPVNRMMNR",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": true,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH",
+    "priceList": {
+      "id": "25602ABSPQSPBVKBMGKBGVHJCDMLVBQBM"
+    },
+    "event": {
+      "id": "281601AVMGGHHBQLKGGCCBDHVMHLHGNJB"
+    },
+    "start": "2026-11-02T12:15:00",
+    "startUtc": "2026-11-02T12:15:00",
+    "startSellingAtWeb": "2026-10-12T13:39:00",
+    "startSellingAtWebUtc": "2026-10-12T12:39:00Z",
+    "stopSellingAtWeb": "2026-11-02T12:05:00",
+    "stopSellingAtWebUtc": "2026-11-02T12:05:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "937801ANDHTNMNLKVGMRCGNSMKQCHDLJP",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": true,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": true,
+    "attribute_AccessSubtitled": true,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": "Baby Kino"
+  },
+  {
+    "isOnSale": true,
+    "planId": "201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL",
+    "priceList": {
+      "id": "25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN"
+    },
+    "event": {
+      "id": "234402ACMTBQHQPPGMDDTRGQDMMKGTSLN"
+    },
+    "start": "2026-11-05T18:00:00",
+    "startUtc": "2026-11-05T18:00:00",
+    "startSellingAtWeb": "2026-10-08T09:00:00",
+    "startSellingAtWebUtc": "2026-10-08T08:00:00Z",
+    "stopSellingAtWeb": "2026-11-05T17:50:00",
+    "stopSellingAtWebUtc": "2026-11-05T17:50:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "927401ASMDCGJRSTGSMTLVJBRRNRBHCRV",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": true,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV",
+    "priceList": {
+      "id": "55401ACNDTGGQPPPTRVGVMSDRVVBMKVVG"
+    },
+    "event": {
+      "id": "285801ASPCLRBBGSRKLDSDLLPTMVSKQSV"
+    },
+    "start": "2026-11-21T09:00:00",
+    "startUtc": "2026-11-21T09:00:00",
+    "startSellingAtWeb": "2026-10-20T15:23:00",
+    "startSellingAtWebUtc": "2026-10-20T14:23:00Z",
+    "stopSellingAtWeb": "2026-11-21T08:50:00",
+    "stopSellingAtWebUtc": "2026-11-21T08:50:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "949601APLSKBJVRDCKPNPHQKKPBBCVCRH",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": false,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ",
+    "priceList": {
+      "id": "25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN"
+    },
+    "event": {
+      "id": "270801ACJKLTTJJPKHPSDRDSVDJDCKDQQ"
+    },
+    "start": "2026-11-24T18:00:00",
+    "startUtc": "2026-11-24T18:00:00",
+    "startSellingAtWeb": "2026-09-22T20:02:00",
+    "startSellingAtWebUtc": "2026-09-22T19:02:00Z",
+    "stopSellingAtWeb": "2026-11-24T17:50:00",
+    "stopSellingAtWebUtc": "2026-11-24T17:50:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "900004ALGPKQMVSDHHGJDTRPNKKSKNBDH",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": false,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN",
+    "priceList": {
+      "id": "2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV"
+    },
+    "event": {
+      "id": "86801AQGMPJRRVSCVQHBPPKJPHDCLBDJG"
+    },
+    "start": "2026-11-24T20:30:00",
+    "startUtc": "2026-11-24T20:30:00",
+    "startSellingAtWeb": "2025-11-18T13:44:00",
+    "startSellingAtWebUtc": "2025-11-18T13:44:00Z",
+    "stopSellingAtWeb": "2026-11-24T20:20:00",
+    "stopSellingAtWebUtc": "2026-11-24T20:20:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "572801ATMBCKJRVQMKMSNDPCRDVJDBNNC",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": false,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ",
+    "priceList": {
+      "id": "25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN"
+    },
+    "event": {
+      "id": "270801ACJKLTTJJPKHPSDRDSVDJDCKDQQ"
+    },
+    "start": "2026-11-25T20:15:00",
+    "startUtc": "2026-11-25T20:15:00",
+    "startSellingAtWeb": "2026-09-22T20:02:00",
+    "startSellingAtWebUtc": "2026-09-22T19:02:00Z",
+    "stopSellingAtWeb": "2026-11-25T20:05:00",
+    "stopSellingAtWebUtc": "2026-11-25T20:05:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "901204ANMBHCJKBJTNJNBKDKPRVBMCNJQ",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": false,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ",
+    "priceList": {
+      "id": "27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH"
+    },
+    "event": {
+      "id": "183401AHBGRJHGTSNGVNLTSDNLKKSBRTN"
+    },
+    "start": "2026-12-13T14:00:00",
+    "startUtc": "2026-12-13T14:00:00",
+    "startSellingAtWeb": "2026-05-21T18:49:00",
+    "startSellingAtWebUtc": "2026-05-21T17:49:00Z",
+    "stopSellingAtWeb": "2026-12-13T13:50:00",
+    "stopSellingAtWebUtc": "2026-12-13T13:50:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "662401ABRBJHVHPDVTSDLPKDMJKBQPVVH",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": false,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  },
+  {
+    "isOnSale": true,
+    "planId": "1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN",
+    "priceList": {
+      "id": "2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV"
+    },
+    "event": {
+      "id": "86801AQGMPJRRVSCVQHBPPKJPHDCLBDJG"
+    },
+    "start": "2026-12-29T20:30:00",
+    "startUtc": "2026-12-29T20:30:00",
+    "startSellingAtWeb": "2025-11-18T13:44:00",
+    "startSellingAtWebUtc": "2025-11-18T13:44:00Z",
+    "stopSellingAtWeb": "2026-12-29T20:20:00",
+    "stopSellingAtWebUtc": "2026-12-29T20:20:00Z",
+    "webInstanceId": null,
+    "cancelled": false,
+    "id": "573001AKCSHJHPQRQSGMHDHTMLCLQQGNG",
+    "hasBestAvailableOverlay": false,
+    "attribute_AccessAudioDescribed": false,
+    "attribute_AccessDementiaFriendly": false,
+    "attribute_AccessFRated": false,
+    "attribute_AccessForeignLanguage": false,
+    "attribute_AccessRelaxed": false,
+    "attribute_AccessSubtitled": false,
+    "attribute_Dubbed": false,
+    "attribute_NoAdsOrTrailers": false,
+    "attribute_Strand": ""
+  }
+]
