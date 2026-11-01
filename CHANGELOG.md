@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [1.0.0] - 2026-11-01
 
 ### Added
 - `SpektrixUk::Cinema.all` and `SpektrixUk::Cinema.new(id)` for Tyneside Cinema, Broadway, Showroom Cinema, Hyde Park Picture House and HOME, with addresses and coordinates held in the gem.
