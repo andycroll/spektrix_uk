@@ -36,7 +36,7 @@ module SpektrixUk
     # @raise [KeyError] for an unknown cinema
     def self.at(
       cinema_id,
-      from: TZInfo::Timezone.get('Europe/London').now.to_date,
+      from: Cinebase::London.today,
       to: from + 13
     )
       raise ArgumentError, 'to must not precede from' if to < from

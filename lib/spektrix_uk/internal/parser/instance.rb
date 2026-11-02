@@ -19,7 +19,6 @@ module SpektrixUk
 
         THREE_D = /\b3D\b/
         YEAR = /\A\d{4}\z/
-        TIME_ZONE = "Europe/London"
 
         # @param [Hash] instance one Spektrix instance
         # @param [Hash] event the event the instance belongs to
@@ -61,7 +60,7 @@ module SpektrixUk
               Time.iso8601(@instance["startUtc"].delete_suffix("Z") + "Z")
             else
               local = Time.iso8601("#{@instance.fetch('start')}Z")
-              TZInfo::Timezone.get(TIME_ZONE).local_to_utc(local) { |periods| periods.first }.utc
+              Cinebase::London.utc(local)
             end
         end
 

@@ -25,12 +25,21 @@ class SpektrixUk::Internal::ApiTest < Minitest::Test
     assert_equal '2026-10-31T14:40:00', instances.first['start']
   end
 
+  def test_retries_dropped_connections
+    stub_request(:get, "#{BASE}/events?instanceStart_from=2026-11-01&instanceStart_to=2026-11-03")
+      .to_raise(Errno::ECONNRESET).then.to_return(status: 200, body: events_json('tyneside'))
+
+    events = Cinebase::Http.stub(:pause, nil) { api.events(Date.new(2026, 11, 1), Date.new(2026, 11, 3)) }
+
+    assert_equal 6, events.size
+  end
+
   def test_errors_omit_body
     stub_request(:get, /#{BASE}/).to_return(status: 500, body: 'secret')
 
     error = assert_raises(RuntimeError) { api.events(Date.new(2026, 11, 1), Date.new(2026, 11, 3)) }
 
-    assert_equal 'Spektrix HTTP error 500', error.message
+    assert_equal 'HTTP error 500 from system.spektrix.com', error.message
   end
 
   private

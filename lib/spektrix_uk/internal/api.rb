@@ -9,13 +9,13 @@ module SpektrixUk
     # Reads a venue's events and instances from the public Spektrix API v3,
     # which needs no token. Each venue's Spektrix account is its client.
     class Api
-      include Http
-
       BASE_URL = "https://system.spektrix.com"
+      READ_TIMEOUT = 120
 
       # @param [String] client the Spektrix client name, e.g. 'tynesidecinema'
       def initialize(client)
         @client = client
+        @http = Cinebase::Http.new(read_timeout: READ_TIMEOUT)
       end
 
       # Events with an instance starting within the range
@@ -38,7 +38,7 @@ module SpektrixUk
       private
 
       def get_json(resource, query)
-        JSON.parse(get("#{BASE_URL}/#{@client}/api/v3/#{resource}?#{URI.encode_www_form(query)}"))
+        JSON.parse(@http.get("#{BASE_URL}/#{@client}/api/v3/#{resource}?#{URI.encode_www_form(query)}"))
       end
     end
   end

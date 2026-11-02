@@ -4,7 +4,6 @@ require 'cinebase'
 
 require_relative './spektrix_uk/version'
 
-require_relative './spektrix_uk/internal/http'
 require_relative './spektrix_uk/internal/api'
 require_relative './spektrix_uk/internal/venue'
 require_relative './spektrix_uk/internal/title_sanitizer'
