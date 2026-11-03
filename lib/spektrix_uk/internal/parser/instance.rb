@@ -38,6 +38,7 @@ module SpektrixUk
             film_name: TitleSanitizer.new(title).sanitized,
             film_year: film_year,
             starting_at: starting_at,
+            title: title,
             variant: variant
           }
         end

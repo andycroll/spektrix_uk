@@ -51,9 +51,12 @@ class SpektrixUk::Internal::TitleSanitizerTest < Minitest::Test
       'Ghosts: The Possession of Button House',
       'Dune: Part 3',
       'Doctor Who: The Satan Pit',
-      "Andrew Lloyd Webber's Starlight Express - Live On Stage",
       'Spotlight'
     ].each { |title| assert_sanitized title, title }
+  end
+
+  def test_live_on_stage
+    assert_sanitized "Andrew Lloyd Webber's Starlight Express", "Andrew Lloyd Webber's Starlight Express - Live On Stage"
   end
 
   private
