@@ -54,8 +54,8 @@ class SpektrixUk::PerformanceTest < Minitest::Test
   def test_at_keeps_films_only
     names = SpektrixUk::Internal::Venue::ALL.keys.flat_map { |id| year_of(id).map(&:film_name) }.uniq
 
-    assert_includes names, 'Met Opera: Manon'
-    assert_includes names, 'Royal Ballet and Opera: The Nutcracker'
+    assert_includes names, 'Manon'
+    assert_includes names, 'The Nutcracker'
     ['Talk Cinema - Evening', 'Meet the 2026 Booker Prize Winner', 'Showroom Pub Quiz',
      'FFS 2026 Festival Pass', "August Wilson's Fences", 'KIDS BUNDLE DEALS'].each do |name|
       refute_includes names, name

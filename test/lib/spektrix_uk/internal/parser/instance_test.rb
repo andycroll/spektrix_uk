@@ -9,6 +9,7 @@ class SpektrixUk::Internal::Parser::InstanceTest < Minitest::Test
       film_name: 'Little Women',
       film_year: 2019,
       starting_at: Time.utc(2026, 12, 6, 14, 0),
+      title: 'Little Women (2019) [2026]',
       variant: []
     }
 
@@ -57,7 +58,16 @@ class SpektrixUk::Internal::Parser::InstanceTest < Minitest::Test
   def test_festival_from_title
     festival = parse(event: { 'name' => 'CFF: Wicker' })[:festival]
 
-    assert_equal Cinebase::Festival.new(name: 'CFF', year: 2026), festival
+    assert_equal Cinebase::Festival.new(name: 'Cambridge Film Festival', year: 2026), festival
+  end
+
+  def test_performances_read_series_from_the_title
+    hash = parse(event: { 'name' => 'Parsifal - Met Opera 26/27' })
+    performance = SpektrixUk::Performance.new(hash.merge(cinema_id: 'tyneside', cinema_name: 'Tyneside Cinema'))
+
+    assert_equal 'Parsifal', performance.film_name
+    assert_equal 'Met Opera', performance.event.name
+    assert_equal %w(arts), performance.variant
   end
 
   def test_booking_url_by_venue
